@@ -10,6 +10,7 @@
     --color-primary-2: #ffe8b4;
     --color-primary-3: #2bc8bf;
     --color-primary-4: #932513;
+    --color-primary-5:
     
 }
 * { /*Isso serve para deixar em todas as fontes*/
@@ -17,6 +18,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*Responsividade*/
+}
+
+html {
+    scroll-behavior: smooth; /*comportamento do scrool*/
 }
 
 body {
